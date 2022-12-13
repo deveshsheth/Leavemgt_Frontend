@@ -4,6 +4,37 @@
     <div class="page-wrapper">
         <div class="content">
 
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"
+                                style="float: right;">&times;</button>
+                            
+                        </div>
+                        
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label>Leave Type <span class="text-danger">:</span> asd</label><br>
+                                    <label>Leave Reason <span class="text-danger">:</span> asdasdasd</label>
+
+                                    
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger float-right" data-dismiss="modal">Close</button>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <div class="card">
                 <div class="card-header">
                     <h4 class="card-title d-inline-block"><b>Approved Leave</b></h4>
@@ -32,11 +63,10 @@
                                                 <td>12-Dec-2022</td>
                                                 <td>12-Dec-2022</td>
                                                 <td>hello my name is devesh sheth</td>
-                                                <td><span class="reject">Approved</span></td>
+                                                <td><span class="reject">Reject</span></td>
                                                 <td>
-                                                    <a href=""> <i class="fas fa-edit"
-                                                            style="color: lightseagreen;"></i> </a> | <a href=""> <i
-                                                            class="fas fa-trash-alt" style="color: red;"></i> </a>
+                                                    <a href="" data-toggle="modal" data-target="#myModal"> <i style="color: red;"><b> Reason</b></i>
+                                                    </a>
                                                 </td>
                                             </tr>
 
@@ -45,11 +75,10 @@
                                                 <td>12-Dec-2022</td>
                                                 <td>12-Dec-2022</td>
                                                 <td>hello my name is devesh sheth</td>
-                                                <td><span class="reject">Approved</span></td>
+                                                <td><span class="reject">Reject</span></td>
                                                 <td>
-                                                    <a href=""> <i class="fas fa-edit"
-                                                            style="color: lightseagreen;"></i> </a> | <a href=""> <i
-                                                            class="fas fa-trash-alt" style="color: red;"></i> </a>
+                                                    <a href=""> <i style="color: red;"><b> Reason</b></i>
+                                                    </a>
                                                 </td>
                                             </tr>
 
@@ -58,28 +87,14 @@
                                                 <td>12-Dec-2022</td>
                                                 <td>12-Dec-2022</td>
                                                 <td>hello my name is devesh sheth</td>
-                                                <td><span class="reject">Approved</span></td>
+                                                <td><span class="reject">Reject</span></td>
                                                 <td>
-                                                    <a href=""> <i class="fas fa-edit"
-                                                            style="color: lightseagreen;"></i> </a> | <a href=""> <i
-                                                            class="fas fa-trash-alt" style="color: red;"></i> </a>
+                                                    <a href=""> <i style="color: red;"><b> Reason</b></i>
+                                                    </a>
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>asd</td>
-                                                <td>12-Dec-2022</td>
-                                                <td>12-Dec-2022</td>
-                                                <td>hello my name is devesh sheth</td>
-                                                <td><span class="reject">Approved</span></td>
-                                                <td>
-                                                    <a href=""> <i class="fas fa-edit"
-                                                            style="color: lightseagreen;"></i> </a> | <a href=""> <i
-                                                            class="fas fa-trash-alt" style="color: red;"></i> </a>
-                                                </td>
-                                            </tr>
-
-
+                                           
                                         </tbody>
                                     </table>
                                 </div>
