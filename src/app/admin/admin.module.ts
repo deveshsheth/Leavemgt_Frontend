@@ -6,9 +6,6 @@ import { EdituserComponent } from './users/edituser/edituser.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { DataTablesModule } from 'angular-datatables';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { HeaderComponent } from '../components/header/header.component';
-import { AppModule } from '../app.module';
-import { SidebarComponent } from '../components/sidebar/sidebar.component';
 import { AdminsidebarComponent } from './adminsidebar/adminsidebar.component';
 import { AdminheaderComponent } from './adminheader/adminheader.component';
 import { DepartmentComponent } from './department/department.component';
@@ -18,9 +15,11 @@ import { UsersComponent } from './users/users.component';
 import { FacultylistComponent } from './facultylist/facultylist.component';
 import { AdduserComponent } from './users/adduser/adduser.component';
 import { StudentComponent } from './student/student.component';
-import { AddstudentComponent } from './student/addstudent/addstudent.component';
-import { EditstudentComponent } from './student/editstudent/editstudent.component';
 import { StuleavesComponent } from './stuleaves/stuleaves.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import { SettingsComponent } from './settings/settings.component';
+import { ChangeroleComponent } from './changerole/changerole.component';
+import { StatusComponent } from './status/status.component';
 
 
 @NgModule({
@@ -36,16 +35,19 @@ import { StuleavesComponent } from './stuleaves/stuleaves.component';
    AdduserComponent,
     FacultylistComponent,
     StudentComponent,
-    AddstudentComponent,
-    EditstudentComponent,
-    StuleavesComponent
+
+    StuleavesComponent,
+    SettingsComponent,
+    ChangeroleComponent,
+    StatusComponent
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     BrowserModule,
     DataTablesModule,
-    
+    FormsModule,
+    ReactiveFormsModule,
   ]
 })
 export class AdminModule { }

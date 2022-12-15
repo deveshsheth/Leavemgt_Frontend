@@ -11,7 +11,7 @@ import { GiveapprovalComponent } from './giveapproval/giveapproval.component';
 import { LeaverequestComponent } from './leaverequest/leaverequest.component';
 import { LeavestatusComponent } from './leavestatus/leavestatus.component';
 import { DataTablesModule } from 'angular-datatables';
-
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 
 
@@ -30,7 +30,9 @@ import { DataTablesModule } from 'angular-datatables';
   imports: [
     CommonModule,
     ClassteacherRoutingModule,
-    DataTablesModule
+    DataTablesModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class ClassteacherModule { }

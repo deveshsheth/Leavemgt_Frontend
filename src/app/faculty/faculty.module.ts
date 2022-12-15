@@ -8,7 +8,7 @@ import { FacultyheaderComponent } from './facultyheader/facultyheader.component'
 import { FacultysidebarComponent } from './facultysidebar/facultysidebar.component';
 import { LeavestatusComponent } from './leavestatus/leavestatus.component';
 import { DataTablesModule } from 'angular-datatables';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,9 @@ import { DataTablesModule } from 'angular-datatables';
   imports: [
     CommonModule,
     FacultyRoutingModule,
-    DataTablesModule
+    DataTablesModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class FacultyModule { }

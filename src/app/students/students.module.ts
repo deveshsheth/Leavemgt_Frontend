@@ -12,7 +12,7 @@ import { LeaverequestComponent } from './leaverequest/leaverequest.component';
 import { LeavesComponent } from './leaves/leaves.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RejectedleaveComponent } from './rejectedleave/rejectedleave.component';
-
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,9 @@ import { RejectedleaveComponent } from './rejectedleave/rejectedleave.component'
   imports: [
     CommonModule,
     StudentsRoutingModule,
-    DataTablesModule
+    DataTablesModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class StudentsModule { }

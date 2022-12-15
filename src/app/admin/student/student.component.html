@@ -9,7 +9,7 @@
                     <div class="card">
 
                         <div class="card-header">
-                            <h4 class="card-title d-inline-block">Students</h4>  <a routerLink="../adminstuleaves"><button class="btn btn-primary" style="float: right;">Leaves</button></a> &nbsp;
+                            <h4 class="card-title d-inline-block"><b style="font-weight: 500;">Students</b></h4>  <a routerLink="../adminstuleaves"><button class="btn btn-primary" style="float: right;">Leaves</button></a> &nbsp;
                         </div>
                         <div class="card-body p-0">
                             <div class="table-responsive">                        
@@ -22,9 +22,8 @@
                                             <th>Gender</th>
                                             <th>Email</th>
                                             <th>City</th>
-                                            <th>Role</th>
                                             <th>Status</th>
-                                            <th>Action</th>
+                                        
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -34,31 +33,19 @@
                                             <td>male</td>
                                             <td>devesh120@gmail.com</td>
                                             <td>Ahmedabad</td>
-                                            <td>Student</td>
-                                            <td><span class="custom-badge status-red">Inactive</span></td>
+                                           
                                             <td>
-                                                <a routerLink="../admineditstudent"> <i class="fas fa-edit"
-                                                        style="color: lightseagreen;"></i>
-                                                </a> | <a href=""> <i class="fas fa-trash-alt" style="color: red;"></i>
-                                                </a>
+                                                <div class="dropdown action-label">
+                                                    <a class="custom-badge status-green " href="#" aria-expanded="false">
+                                                        Active
+                                                    </a>
+                                                    
+                                                </div>
                                             </td>
+                                            
                                         </tr>
 
-                                        <tr>
-                                            <td>Aryan</td>
-                                            <td>8545245214</td>
-                                            <th>male</th>
-                                            <td>devesh120@gmail.com</td>
-                                            <td>Ahmedabad</td>
-                                            <td>Student</td>
-                                            <td><span class="custom-badge status-green">Active</span></td>
-                                            <td>
-                                                <a href=""> <i class="fas fa-edit" style="color: lightseagreen;"></i>
-                                                </a> | <a href=""> <i class="fas fa-trash-alt" style="color: red;"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-
+                                
 
 
                                     </tbody>

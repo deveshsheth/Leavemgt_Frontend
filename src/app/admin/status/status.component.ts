@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-editstudent',
-  templateUrl: './editstudent.component.html',
-  styleUrls: ['./editstudent.component.css']
+  selector: 'app-status',
+  templateUrl: './status.component.html',
+  styleUrls: ['./status.component.css']
 })
-export class EditstudentComponent implements OnInit {
+export class StatusComponent implements OnInit {
   dtOptions: DataTables.Settings = {};
 
   constructor() { }
