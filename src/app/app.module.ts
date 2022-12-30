@@ -11,7 +11,7 @@ import { ClassteacherModule } from './classteacher/classteacher.module';
 import { AdminModule } from './admin/admin.module';
 import { DataTablesModule } from 'angular-datatables';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AdminModule,
     FormsModule,
     ReactiveFormsModule,
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
